@@ -26,10 +26,6 @@
             <p class="site-description">{{ site.description }}</p>
           </div>
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
         </header>
       </div>
     </div>
@@ -46,6 +42,27 @@
       </div>
     </div>
 
-    {% include analytics.html %}
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+    <script>
+        // Image pool to select from
+        var images = [
+            '404.jpg', 'config.jpg'
+        ];
+
+        // Pick a random image
+        var maxImages = images.length;
+        var rand = Math.floor(Math.random() * maxImages);
+        var image = images[rand];
+
+         // Set image as background
+        $(".jumbotron").backstretch(
+            ![_config.yml]({{ site.baseurl }}/images/ + image,
+            {
+                centeredY: false
+            }
+        );
+    </script>
+
+
   </body>
 </html>
