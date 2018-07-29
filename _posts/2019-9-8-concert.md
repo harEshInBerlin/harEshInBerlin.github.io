@@ -1,9 +1,9 @@
 ---
 layout: post
-title: The one with Southwark cathedral concert.
+title: The one where Gant and Gargi stare at a painting.
 ---
 
-The concert at Southwark cathedral for Gant's B'day, should have been pretty swell :D
+Columbia road market, staring at a $500 painting, which was not worth $500. 
 
-![Concert](/images/gant_bday_concert.jpg)
+![Paintings](/images/gant_me_paintings.jpg)
 
